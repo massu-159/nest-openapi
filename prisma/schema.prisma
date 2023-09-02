@@ -14,5 +14,5 @@ model Weapon {
   id        Int      @id @default(autoincrement())
   name      String
   attackPower    Int
-  attributes String
+  attribute String
 }
